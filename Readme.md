@@ -16,9 +16,12 @@ After server started, you can open this url [http://127.0.0.1:8080/docs](http://
 ![Return expected results](post_result.png)
 
 ## Run with Docker
+### Pull from dockerhub
+
+`https://hub.docker.com/repository/docker/yaozeliang/axione`
 
 ```
-docker run -d --name <your container name > -p 80:80 axione_test_image`
+docker run -d --name <your container name> -p 80:80 axione`
 
 ```
 
