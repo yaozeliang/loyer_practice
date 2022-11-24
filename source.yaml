@@ -1,0 +1,24 @@
+API:
+  DEPARTEMENT: https://geo.api.gouv.fr/departements
+  COMMUNE: https://geo.api.gouv.fr/communes
+  NOTE: https://www.bien-dans-ma-ville.fr/classement-ville-global-{}
+
+
+LOYER_DATASET:
+  URL: https://www.data.gouv.fr/fr/datasets/r/a698ae0c-a9e8-4ba8-8109-aa9165dcd0e2
+  USED_COLS:
+    - INSEE_COM
+    - NOM_COM_M
+    - POPULATION
+    - loyer_apparts
+    - loyer_maisons
+
+  RENAME_COLS:
+    - inseeCode
+    - nameUpperStripAccent
+    - population 
+    - loyerApparts
+    - loyerMaisons
+    
+
+  
